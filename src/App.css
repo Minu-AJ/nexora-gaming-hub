@@ -537,16 +537,24 @@ main p {
 .game-card {
   position: relative;
 
-  height: 260px;
+  min-height: 230px;
+
+  display: flex;
+  align-items: flex-end;
+
+  padding: 24px;
+
+  background-color: #080d18;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border: 1px solid rgba(0, 217, 255, 0.15);
 
   overflow: hidden;
 
-  background: #080d18;
-  border: 1px solid rgba(0, 217, 255, 0.15);
-
   transition: 0.35s ease;
 }
-
 /* Game Image */
 
 .game-image {
@@ -562,6 +570,7 @@ main p {
   height: 100%;
 
   object-fit: cover;
+  object-position: center;
 
   display: block;
 
