@@ -6,6 +6,7 @@ import GameLibrary from "./components/GameLibrary";
 import Pricing from "./components/Pricing"; 
 import Gallery from "./components/Gallery";
 import GamingZone from "./components/GamingZone";
+import Booking from "./components/Booking";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Pricing />
       <Gallery />
       <GamingZone />
+      <Booking />
 
       <main id="home">
         <h1>NEXORA GAMING HUB</h1>
